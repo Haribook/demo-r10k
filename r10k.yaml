@@ -1,0 +1,5 @@
+cachedir: '/var/cache/r10k'
+sources:
+ Haribook:
+  remote: 'https://github.com/Haribook/demo-r10k.git'
+  basedir: '/etc/puppet/environments/'
