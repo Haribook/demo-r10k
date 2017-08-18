@@ -1,0 +1,21 @@
+-> create a empty git repo
+   git init
+-> Create a environment branch "production"
+   git branch -b production
+-> Add a Pupperfile with puppetmodules 
+   git add Puppetfile
+-> Commit cnages
+   git commit -m "message"
+-> push commit to the remote branch "production"
+   git remote add origin remoteRepoPath
+   git push origin production
+
+
+gem install  puppet_forge -v 2.2.5
+gem install r10k -v 2.5.5
+
+gem install r10k
+gem install puppet_forge 
+
+r10k deploy environment production -pv
+r10k deploy environment production -pv  -c r10k.yaml
