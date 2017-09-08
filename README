@@ -19,3 +19,6 @@ gem install puppet_forge
 
 r10k deploy environment production -pv
 r10k deploy environment production -pv  -c r10k.yaml
+
+
+https://github.com/adrienthebo/r10k-workshop/blob/master/WORKSHOP.mkd
